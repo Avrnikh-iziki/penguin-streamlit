@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
-
+from PIL import Image
 imag = Image.open('fa.png')
 st.set_page_config(page_title="Avrnikh", page_icon=imag)
 st.write("""
